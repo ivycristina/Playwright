@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "acesso-ao-site-playwright;login-bem-sucedido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login bem-sucedido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "eu acesso a página inicial do Playwright",
+            "match": {
+              "location": "features\\step_definitions\\cucumber_first.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 640461299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clicar no link \"Get started\"",
+            "match": {
+              "location": "features\\step_definitions\\cucumber_first.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142860200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo ser redirecionado para a página de introdução",
+            "match": {
+              "location": "features\\step_definitions\\cucumber_first.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383431300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "acesso-ao-site-playwright",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Acesso ao site Playwright",
+    "tags": [],
+    "uri": "features\\cucumber_first.feature"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "testes-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require features",
+    "cucumber": "cucumber-js test/features --require test/step_definitions --dry-run",
+    "test:chromium": "cucumber-js --world-parameters '{\"browser\":\"chromium\"}'",
+    "test:firefox": "cucumber-js --world-parameters '{\"browser\":\"firefox\"}'",
+    "test:webkit": "cucumber-js --world-parameters '{\"browser\":\"webkit\"}'",
+    "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "cucumber-html-reporter": "^7.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
