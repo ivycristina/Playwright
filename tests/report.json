@@ -4,48 +4,116 @@
     "elements": [
       {
         "description": "",
-        "id": "acesso-ao-site-playwright;login-bem-sucedido",
+        "id": "acesso-ao-site-americanas.com;pesquisa-produto",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Login bem-sucedido",
+        "name": "Pesquisa produto",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 581279900
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "eu acesso a página inicial do Playwright",
+            "name": "eu acesso o site da Americanas.com",
             "match": {
-              "location": "features\\step_definitions\\cucumber_first.js:17"
+              "location": "features\\step-definitions\\cucumber_first.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 640461299
+              "duration": 8477610300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "clicar no link \"Get started\"",
+            "name": "digitar Smart TV no campo de busca",
             "match": {
-              "location": "features\\step_definitions\\cucumber_first.js:22"
+              "location": "features\\step-definitions\\cucumber_first.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 142860200
+              "duration": 5060282000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicar no botão de pesquisar",
+            "match": {
+              "location": "features\\step-definitions\\cucumber_first.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14258600999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "devo ser redirecionado para a página de introdução",
+            "line": 7,
+            "name": "devo selecionar o filtro \"Preço\"",
             "match": {
-              "location": "features\\step_definitions\\cucumber_first.js:26"
+              "location": "features\\step-definitions\\cucumber_first.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 383431300
+              "duration": 118797399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "devo selecionar a opção de \"2500-5000\"",
+            "match": {
+              "location": "features\\step-definitions\\cucumber_first.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5569969600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "a partir da lista de produtos, deve selecionar os que tiverem maior que \"3500\"",
+            "match": {
+              "location": "features\\step-definitions\\cucumber_first.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251520400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "trazer o nome/o preço do produto/quantidade estrelas",
+            "match": {
+              "location": "features\\step-definitions\\cucumber_first.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1552100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 563999700
             }
           }
         ],
@@ -53,10 +121,10 @@
         "type": "scenario"
       }
     ],
-    "id": "acesso-ao-site-playwright",
+    "id": "acesso-ao-site-americanas.com",
     "line": 1,
     "keyword": "Feature",
-    "name": "Acesso ao site Playwright",
+    "name": "Acesso ao site Americanas.com",
     "tags": [],
     "uri": "features\\cucumber_first.feature"
   }
