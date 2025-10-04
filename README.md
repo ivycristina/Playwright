@@ -49,11 +49,17 @@ npx cucumber-js
 ## Para gerar report rode o comando abaixo apos ter rodado o anterior:
 #### OBS: Tem que estar dentro da pasta tests do projeto
 
+## Rode primeiro
+
+```
+npx cucumber-js --format json:report.json
+```
+
 ```
 node gerar-report.js
 ```
 
-* para rodar os testes abrindo um browser especifico rode o comando abaixo:
+## Para rodar os testes abrindo um browser especifico rode o comando abaixo:
 
 ## Chrome
 ```sh
